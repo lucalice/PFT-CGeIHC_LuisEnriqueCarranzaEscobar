@@ -1,0 +1,178 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 16.11.2020 19:27:02
+
+newmtl Standard_2
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka \\192.168.10.50\Project\Models For Turbosquid\Buildings\Building 20\Textures\Ba_House_01.jpg
+	map_Kd \\192.168.10.50\Project\Models For Turbosquid\Buildings\Building 20\Textures\Ba_House_01.jpg
+
+newmtl Standard_3
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka \\192.168.10.50\Project\Models For Turbosquid\Buildings\Building 20\Textures\Ba_House_02.jpg
+	map_Kd \\192.168.10.50\Project\Models For Turbosquid\Buildings\Building 20\Textures\Ba_House_02.jpg
+
+newmtl Standard_9
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka \\192.168.10.50\Project\Models For Turbosquid\Buildings\Building 20\Textures\MarbleTilesWall0008MM.jpg
+	map_Kd \\192.168.10.50\Project\Models For Turbosquid\Buildings\Building 20\Textures\MarbleTilesWall0008MM.jpg
+
+newmtl Standard_8
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka \\192.168.10.50\Project\Models For Turbosquid\Buildings\Building 20\Textures\Ba_House_022.jpg
+	map_Kd \\192.168.10.50\Project\Models For Turbosquid\Buildings\Building 20\Textures\Ba_House_022.jpg
+
+newmtl Standard_1
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka \\192.168.10.50\Project\Models For Turbosquid\Buildings\Building 20\Textures\TilesPlain0150_2_S.jpg
+	map_Kd \\192.168.10.50\Project\Models For Turbosquid\Buildings\Building 20\Textures\TilesPlain0150_2_S.jpg
+
+newmtl Standard_7
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka \\192.168.10.50\Project\Models For Turbosquid\Buildings\Building 20\Textures\Ba_House_Door_01.jpg
+	map_Kd \\192.168.10.50\Project\Models For Turbosquid\Buildings\Building 20\Textures\Ba_House_Door_01.jpg
+
+newmtl Standard_22
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka \\192.168.10.50\Project\Models For Turbosquid\Buildings\Building 20\Textures\ConcreteBunker0511_L.jpg
+	map_Kd \\192.168.10.50\Project\Models For Turbosquid\Buildings\Building 20\Textures\ConcreteBunker0511_L.jpg
+
+newmtl Standard_16
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka \\192.168.10.50\Project\Models For Turbosquid\Buildings\Building 20\Textures\RooftilesBitumen0009_1_S.jpg
+	map_Kd \\192.168.10.50\Project\Models For Turbosquid\Buildings\Building 20\Textures\RooftilesBitumen0009_1_S.jpg
+
+newmtl Standard_1_door
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka \\192.168.10.50\Project\Models For Turbosquid\Buildings\Building 20\Textures\DoorsMetalSingle0326_S.jpg
+	map_Kd \\192.168.10.50\Project\Models For Turbosquid\Buildings\Building 20\Textures\DoorsMetalSingle0326_S.jpg
+
+newmtl Standard_11dsa
+	Ns 44.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.650980 0.650980 0.650980
+	Kd 0.650980 0.650980 0.650980
+	Ks 0.747000 0.747000 0.747000
+	Ke 0.000000 0.000000 0.000000
+
+newmtl wire_087225198
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.341176 0.882353 0.776471
+	Kd 0.341176 0.882353 0.776471
+	Ks 0.350000 0.350000 0.350000
+
+newmtl Material__92
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.588235 0.588235 0.588235
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka \\192.168.10.50\Project\Models For Turbosquid\Buildings\Building 20\Textures\MAF_Buildings_Roof_detail.jpg
+	map_Kd \\192.168.10.50\Project\Models For Turbosquid\Buildings\Building 20\Textures\MAF_Buildings_Roof_detail.jpg
+
+newmtl Material__127
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.588235 0.588235 0.588235
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka \\192.168.10.50\Project\Models For Turbosquid\Buildings\Building 20\Textures\MAF_Buildings_Roof_detail.jpg
+	map_Kd \\192.168.10.50\Project\Models For Turbosquid\Buildings\Building 20\Textures\MAF_Buildings_Roof_detail.jpg

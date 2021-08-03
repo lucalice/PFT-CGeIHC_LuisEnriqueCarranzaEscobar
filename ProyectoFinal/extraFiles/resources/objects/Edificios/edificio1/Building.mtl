@@ -1,0 +1,167 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 10.11.2020 16:11:13
+
+newmtl 01___Default
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.588235 0.588235 0.588235
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Textures/MGH_IMG_3243.jpg
+	map_Kd Textures/MGH_IMG_3243.jpg
+
+newmtl 02___Default
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.000000 0.000000 0.000000
+	Kd 0.000000 0.000000 0.000000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Textures/MAF_Building_fans_diff_01.jpg
+	map_Kd Textures/MAF_Building_fans_diff_01.jpg
+	map_d Textures/MAF_Building_fans_01.jpg
+
+newmtl 08___Default
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.588235 0.588235 0.588235
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Textures/MAF_Buildings_Roof_detail.jpg
+	map_Kd Textures/MAF_Buildings_Roof_detail.jpg
+
+newmtl 03___Default
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.588235 0.588235 0.588235
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Textures/MGH_IMG_3243_B.jpg
+	map_Kd Textures/MGH_IMG_3243_B.jpg
+
+newmtl 04___Default
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.588235 0.588235 0.588235
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Textures/MAF_Wall_Brick_03.jpg
+	map_Kd Textures/MAF_Wall_Brick_03.jpg
+
+newmtl 05___Default
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.588235 0.588235 0.588235
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Textures/MAF_door_02.jpg
+	map_Kd Textures/MAF_door_02.jpg
+
+newmtl 06___Default
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.588235 0.588235 0.588235
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Textures/MAF_Wall_Brick_04.jpg
+	map_Kd Textures/MAF_Wall_Brick_04.jpg
+
+newmtl 07___Default
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.588235 0.588235 0.588235
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Textures/MAF_Ground_01.jpg
+	map_Kd Textures/MAF_Ground_01.jpg
+
+newmtl Material__56
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.588235 0.588235 0.588235
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Textures/MAF_Buildings_Roof_detail.jpg
+	map_Kd Textures/MAF_Buildings_Roof_detail.jpg
+
+newmtl 01___Defasdas
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.588235 0.588235 0.588235
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Textures/MGH_IMG_3243.jpg
+	map_Kd Textures/MGH_IMG_3243.jpg
+
+newmtl Material__150
+	Ns 26.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.050980 0.050980 0.050980
+	Kd 0.050980 0.050980 0.050980
+	Ks 0.999000 0.999000 0.999000
+	Ke 0.000000 0.000000 0.000000
+
+newmtl 09___Default
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.086275 0.105882 0.152941
+	Kd 0.086275 0.105882 0.152941
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
