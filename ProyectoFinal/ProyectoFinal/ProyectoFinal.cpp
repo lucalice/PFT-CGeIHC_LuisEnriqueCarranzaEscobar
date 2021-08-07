@@ -376,7 +376,7 @@ int main()
         megan.Draw(animShader);
         
         model = glm::translate(glm::mat4(1.0f), glm::vec3(-360.0f,147.0f,-400.0f));
-        model = glm::scale(model, glm::vec3(0.09f));
+        model = glm::scale(model, glm::vec3(0.078f));
         animShader.setMat4("model", model);
         megan.Draw(animShader);
         
@@ -393,7 +393,7 @@ int main()
         sentado.Draw(animShader);
         
         //model = glm::translate(glm::mat4(1.0f), glm::vec3(-318.0f, 145.0f, -388.0f));
-        model = glm::translate(glm::mat4(1.0f), glm::vec3(-346.0f,148.0f,-406));
+        model = glm::translate(glm::mat4(1.0f), glm::vec3(-345.0f,148.0f,-410));
         model = glm::rotate(model, glm::radians(-55.0f), glm::vec3(0.0f, 1.0f, 0.0f));
         model = glm::scale(model, glm::vec3(0.09f));
         animShader.setMat4("model", model);
@@ -639,9 +639,9 @@ int main()
         puertaAnchaEdificio6.Draw(staticShader);
         
         //Mesa
-        model = glm::translate(glm::mat4(1.0f), glm::vec3(-346.0f,180.0f,-406));
+        model = glm::translate(glm::mat4(1.0f), glm::vec3(-330.0f,147.0f,-400));
         model = glm::rotate(model, glm::radians(-55.0f), glm::vec3(0.0f, 1.0f, 0.0f));
-        model = glm::scale(model, glm::vec3(0.09f));
+        model = glm::scale(model, glm::vec3(0.5f));
         staticShader.setMat4("model", model);
         mesa.Draw(animShader);
         
