@@ -1,24 +1,3 @@
-# Blender MTL File: 'None'
-# Material Count: 2
-
-newmtl Frame
-Ns 10.000002
-Ka 1.000000 1.000000 1.000000
-Kd 0.019600 0.019600 0.019600
-Ks 0.000000 0.000000 0.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.500000
-d 1.000000
-illum 1
-map_Kd Wood.jpg
-
-newmtl Glass_1
-Ns 10.000002
-Ka 1.000000 1.000000 1.000000
-Kd 0.007800 0.000000 0.105900
-Ks 0.000000 0.000000 0.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.500000
-d 1.000000
-illum 1
-map_Kd Glass.jpg
+version https://git-lfs.github.com/spec/v1
+oid sha256:9d4c046d5e7e38e0650e78944a27f8438704120c22df159cebc63a48df1951e2
+size 438

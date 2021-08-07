@@ -1,21 +1,3 @@
-newmtl lambert6SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd piel.tga
-Ni 1.00
-newmtl lambert7SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd ojo.tga
-Ni 1.00
-newmtl lambert8SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd oro.tga
-Ni 1.00
+version https://git-lfs.github.com/spec/v1
+oid sha256:b731e96a04146d528658ab775ef86aa6663f768eab16597078a2ba65d45cea97
+size 310

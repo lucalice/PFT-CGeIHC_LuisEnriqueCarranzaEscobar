@@ -55,7 +55,7 @@ void getResolution(void);
 // camera
 //Camera camera(glm::vec3(0.0f, 10.0f, 90.0f));
 Camera camera(glm::vec3(-360.0f, 106.0f, -380.0f));
-float MovementSpeed = 0.1f;
+float MovementSpeed = 0.01f;
 float lastX = SCR_WIDTH / 2.0f;
 float lastY = SCR_HEIGHT / 2.0f;
 bool firstMouse = true;
@@ -84,29 +84,10 @@ float   movAuto_x = 0.0f,
 bool    animacion = false,
         animacionDos = false,
         puertaFlag = false,
-        flag = false,
-        recorrido1 = true,
-        recorrido2 = false,
-        recorrido3 = false,
-        recorrido4 = false;
-
-
-//Keyframes (Manipulación y dibujo)
-float   posX = 0.0f,
-        posY = 0.0f,
-        posZ = 0.0f;
-float   incX = 0.0f,
-        incY = 0.0f,
-        incZ = 0.0f;
+        flag = false;
 
 #define MAX_FRAMES 9
-int i_max_steps = 60; //Cantidad de cuadros intermedios
-int i_curr_steps = 0;
 
-int FrameIndex = 0;            //introducir datos
-bool play = false;
-int playIndex = 0;
-//bool flag = false;
 
 
 
@@ -294,6 +275,10 @@ int main()
     Model mueble("/Users/luiscarranza/Documents/CompuGrafica/proyectoFinal/ProyectoFinal/extraFiles/resources/objects/mueble/Long_Table.obj");
     
     Model muebleTV("/Users/luiscarranza/Documents/CompuGrafica/proyectoFinal/ProyectoFinal/extraFiles/resources/objects/muebleTV/muebleTV.obj");
+    
+    Model alfombra("/Users/luiscarranza/Documents/CompuGrafica/proyectoFinal/ProyectoFinal/extraFiles/resources/objects/alfombra/alfombra.obj");
+    
+    
     //Users/luiscarranza/Desktop/TEXTURES/
     // draw in wireframe
     //glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
@@ -703,6 +688,12 @@ int main()
         model = glm::scale(model, glm::vec3(2.2f));
         staticShader.setMat4("model", model);
         muebleTV.Draw(staticShader);
+        
+        model = glm::translate(glm::mat4(1.0f), glm::vec3(-400.0f, 99.0f, -380.0f));
+        model = glm::rotate(model, glm::radians(0.0f), glm::vec3(0.0f, 1.0f, 0.0f));
+        model = glm::scale(model, glm::vec3(0.005f));
+        staticShader.setMat4("model", model);
+        alfombra.Draw(staticShader);
 
         model = glm::translate(glm::mat4(1.0f), glm::vec3(-388.0f, 100.5f, -455.0f));
         model = glm::rotate(model, glm::radians(0.0f), glm::vec3(0.0f, 1.0f, 0.0f));
