@@ -73,9 +73,10 @@ glm::vec3 lightDirection(0.0f, -1.0f, -1.0f);
 // posiciones
 //float x = 0.0f;
 //float y = 0.0f;
+//Variables para el manejo de las animaciones
 float   movAuto_x = 0.0f,
         movAuto_z = 0.0f,
-        movAuto_y = 0.0f, //Creamos una nueva variable para movernos en y y así poder elevar el auto
+        movAuto_y = 0.0f,
         orienta = 0.0f,
         giroPuerta = 0.0f,
         giroLlantas = 0.0f,
@@ -88,9 +89,7 @@ bool    animacion = false,
 
 #define MAX_FRAMES 9
 
-
-
-
+//Función encargada del manejo de las animacinones
 void animate(void)
 {
 
@@ -131,7 +130,7 @@ void animate(void)
         }
     }
 }
-
+//Función encargada de obtener la resolución
 void getResolution()
 {
     const GLFWvidmode * mode = glfwGetVideoMode(glfwGetPrimaryMonitor());
@@ -141,6 +140,7 @@ void getResolution()
 }
 
 
+//Función principal
 int main()
 {
     // glfw: initialize and configure
@@ -252,6 +252,12 @@ int main()
 
     ModelAnim kate("/Users/luiscarranza/Documents/CompuGrafica/proyectoFinal/ProyectoFinal/extraFiles/resources/objects/kate/kate.dae");
     kate.initShaders(animShader.ID);
+    
+    ModelAnim meganSillyDancing("/Users/luiscarranza/Documents/CompuGrafica/proyectoFinal/ProyectoFinal/extraFiles/resources/objects/Megan Silly Dancing/Silly Dancing.dae");
+    meganSillyDancing.initShaders(animShader.ID);
+    
+    ModelAnim jamesSillyDancing("/Users/luiscarranza/Documents/CompuGrafica/proyectoFinal/ProyectoFinal/extraFiles/resources/objects/James Silly Dancing/Silly Dancing.dae");
+    jamesSillyDancing.initShaders(animShader.ID);
     
     
     ModelAnim sentado("/Users/luiscarranza/Documents/CompuGrafica/proyectoFinal/ProyectoFinal/extraFiles/resources/objects/Sitting/Sitting.dae");
@@ -375,10 +381,18 @@ int main()
         animShader.setMat4("model", model);
         megan.Draw(animShader);
         
-        model = glm::translate(glm::mat4(1.0f), glm::vec3(-360.0f,147.0f,-400.0f));
+        model = glm::translate(glm::mat4(1.0f), glm::vec3(-360.0f,147.0f,-390.0f));
+        model = glm::rotate(model, glm::radians(160.0f),glm::vec3(0.0f,1.0f,0.0f));
         model = glm::scale(model, glm::vec3(0.078f));
         animShader.setMat4("model", model);
-        megan.Draw(animShader);
+        meganSillyDancing.Draw(animShader);
+        
+        model = glm::translate(glm::mat4(1.0f), glm::vec3(-350.0f,147.0f,-390.0f));
+        model = glm::rotate(model, glm::radians(160.0f),glm::vec3(0.0f,1.0f,0.0f));
+        model = glm::scale(model, glm::vec3(0.078f));
+        animShader.setMat4("model", model);
+        jamesSillyDancing.Draw(animShader);
+        
         
         model = glm::translate(glm::mat4(1.0f), glm::vec3(-46.0f,0.0f,-80.0f+movPersonaje));
         model = glm::scale(model, glm::vec3(0.069f));
@@ -394,7 +408,7 @@ int main()
         
         //model = glm::translate(glm::mat4(1.0f), glm::vec3(-318.0f, 145.0f, -388.0f));
         model = glm::translate(glm::mat4(1.0f), glm::vec3(-345.0f,148.0f,-410));
-        model = glm::rotate(model, glm::radians(-55.0f), glm::vec3(0.0f, 1.0f, 0.0f));
+        model = glm::rotate(model, glm::radians(-35.0f), glm::vec3(0.0f, 1.0f, 0.0f));
         model = glm::scale(model, glm::vec3(0.09f));
         animShader.setMat4("model", model);
         aplauso.Draw(animShader);
@@ -771,10 +785,12 @@ int main()
     return 0;
 }
 
+//Función que se encarga del manejo de las entradas del teclado. Dependiendo de la tecla, se va a crear ejecutar una acción distinta.
 // process all input: query GLFW whether relevant keys are pressed/released this frame and react accordingly
 // ---------------------------------------------------------------------------------------------------------
 void my_input(GLFWwindow *window, int key, int scancode, int action, int mode)
 {
+    //Teclas para movernos en el escenario
     if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
         glfwSetWindowShouldClose(window, true);
     if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
